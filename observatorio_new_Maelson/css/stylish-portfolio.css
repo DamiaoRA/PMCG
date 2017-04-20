@@ -22,12 +22,13 @@ body {
       margin-bottom: 0;
       background-color: #172c94;
       z-index: 9999;
-      border: 1;
+      border: 1; /*borda da navbar*/
       font-size: 12px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 1px;
       border-radius: 0;
       font-family: Arial;
+      height: 80px;/*altura da navbar*/
      
   }
   .navbar li a, .navbar .navbar-brand {
@@ -291,6 +292,8 @@ footer {
   margin: 0 auto;
   list-style: none;
   text-align: center;
+  padding: 20px;
+  border-radius: 2px;
 }
 
 /* Common style */
